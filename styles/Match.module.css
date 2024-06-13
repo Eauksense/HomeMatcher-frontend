@@ -1,0 +1,47 @@
+.main {
+    display:grid;
+    grid-template-columns: repeat(5, 20vw);
+    grid-template-rows: repeat(8, 10vh);
+}
+
+.header {
+    grid-row-start: 0;
+    grid-row-end:1;
+    grid-column-start:1;
+    grid-column-end:6;
+}
+
+.body{
+    background-color: #f5e6e7;
+    grid-row-start: 1;
+    grid-row-end:9;
+    grid-column-start:1;
+    grid-column-end:6;
+}
+
+.match{
+    border:solid 2px #FF4D4D;
+    background-color: #ffffff;
+    gap:10px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    border-radius: 5px;
+}
+
+.profilpic {
+    height:100px;
+    width:100px;
+    margin: 5px 5px 5px 5px;
+    border:solid 2px #eea4a4;
+    border-radius: 100px;
+}
+
+.username {
+    text-decoration: underline;
+    margin-right: 25px;
+}
+
+.icon {
+    margin-left:25px;
+}
